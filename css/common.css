@@ -73,7 +73,14 @@ h1{font-family: 'GmarketSansMedium'; font-weight: 700; font-size:50px; line-heig
 
 }
 
-.right>ul>li:nth-child(2){background:#3396ff; }
+.right > ul > li:nth-child(2) {
+
+    background: #ddd;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
 .right>ul>li>h3{font-size:45px;margin: 10px 0 22px 0;}
 .right > ul > li:nth-child(3) li {
     display: flex;
