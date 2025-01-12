@@ -53,11 +53,11 @@ h1{font-family: 'GmarketSansMedium'; font-weight: 700; font-size:50px; line-heig
 .right{width:100%; margin-top: 10px;height: 100%;} 
 .right>ul{width:100%;display: flex; justify-content:stretch;justify-content: space-between;
     padding-left: 0; }
-.right>ul>li{height:329px; }
+.right>ul>li{height:329px; display: flex; gap:4px}
  
-.right>ul>li:not(.no-margin){width:34%; margin-left: 4px;}
+.right>ul>li:not(.no-margin){width:34%; margin-left: 8px;}
 
-.right>ul>li >img {margin-right: 21px;}
+/* .right>ul>li >img {margin-right: 21px;} */
 
 .contect img{margin-right:7px;}
 .location {
