@@ -1,4 +1,4 @@
-@charset "utf-8;"
+@charset "utf-8";
 
 @font-face {
     font-family: 'GmarketSansMedium';
@@ -13,11 +13,11 @@ body{
 ul{    padding-left: 0;}
 .bg {display: flex;justify-content: center;}
 li {list-style: none !important;}
-h1{font-family: 'GmarketSansMedium'; font-weight: 700; font-size:50px; line-height:165px; height:16vh; display:flex; justify-content: center; align-items: center;margin: 0;}
+h1{font-family: 'GmarketSansMedium'; font-weight: 700; font-size:50px; line-height:165px; height:16vh; display:flex; justify-content: center; align-items: center;margin: 0; text-align: center; word-break: keep-all;}
 .bg{background-color: #f1f3f7;}
-.wrap{width:82%; margin:padding-top:30px;box-sizing: border-box;
+.wrap{width:82%; margin: 0; padding-top:30px; box-sizing: border-box;
     justify-content: space-between; height: 75%;}
-.left{width:100%; margin-right:calc(7%-20px);}
+.left{width:100%; margin-right:calc(7% - 20px);}
 .left ul{padding-left:0; width:100%;height:735px;}
 .left ul>li{display:flex; justify-content: space-between; height:50%;}
 .left p
@@ -144,6 +144,7 @@ footer{width:82%; margin:20px auto;}
         width: 82%;
         margin: 20px auto 50px;
         padding-bottom: 50px;
+    }
 }
 @media screen and (max-width: 1350px){
     .left ul {
@@ -177,6 +178,13 @@ footer{width:82%; margin:20px auto;}
         }
 }
 @media screen and (max-width: 766px){
+    h1 {
+        font-size: 32px;
+        line-height: 120px;
+        height: 12vh;
+        padding: 0 10px;
+        word-break: keep-all;
+    }
     .left ul {
         height: 150px;
     }
@@ -199,4 +207,14 @@ footer{width:82%; margin:20px auto;}
     background-size: contain;
     }
 
+}
+
+@media screen and (max-width: 480px){
+    h1 {
+        font-size: 24px;
+        line-height: 100px;
+        height: 10vh;
+        padding: 0 5px;
+        word-break: keep-all;
+    }
 }
